@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Job Application Form</title>
+</head>
+<body>
+    <div id="main-box">
+        <div>
+            <header id="header">JOB APPLICATION FORM </header>
+            <br><br>
+            <section id="main-container">
+                <div id="left-section">
+                    <form action="result.html" method="get">
+                        <header class="header-1">REGISTER HERE :</header>
+                        <br>
+                        <input type="email" name="mail" id="mail" placeholder="Your Email Address">
+                        <br><br>
+                        <label for="password"></label>
+                        <input type="password" name="password" id="password" placeholder="Password">
+                        <br><br>
+                        <input type="password" name="password" id="password" placeholder="Confirm Password">
+                        <br><br>
+                        <select name="security" id="security">
+                            <option value="quesiton">Security Questions?</option>
+                            <option value="pets">What Is Your Favorite Pet?</option>
+                            <option value="birth">What Is Your Date Of Birth?</option>
+                            <option value="city">What Is Your Favorite City?</option>
+                        </select>
+                        <br><br>
+                        <label for="answer"></label>
+                        <input type="text" name="answer" id="answer" placeholder="Your Answer">
+                        <br><br>
+                        <label for="cv">Upload Your CV :</label>
+                        <br><br>
+                        <input type="file" name="cv" id="cv">
+                        <br><br>
+                        <textarea name="address" id="textarea" rows="5px" cols="30px" placeholder="Address.."></textarea>
+                    <br><br>
+                    <input type="button" value="SUBMIT">
+                    <input type="button" value="RESET" id="reset">
+                    </form>
+                </div>
+        <div>
+            <header class="header-2">YOUR DETAILS :</header>
+            <section id="main-container-2">
+                <div>
+                    <form action="result.html" method="get">
+                        <input type="text" name="text" id="text" placeholder="First Name">
+                        <label for="text"></label>
+                        <br><br>
+                        <input type="text" name="text" id="text" placeholder="Last Name">
+                        <label for="text"></label>
+                        <br><br>
+                        <label for="Male">Male</label>
+                        <input type="radio" name="gender" id="gender">
+                        <label for="Female">Female</label>
+                        <input type="radio" name="gender" id="gender">
+                        <label for="Other">Other</label>
+                        <input type="radio" name="gender" id="gender">
+                        <label for="phone"></label>
+                        <br><br>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="Phone Number">
+                        <br><br>
+                        <label for="prof">What Is Your Profession :</label>
+                        <br><br>
+                        <label for="">HTML</label>
+                        <input type="checkbox" name="prof" id="prof">
+                        <label for="">CSS</label>
+                        <input type="checkbox" name="prof" id="prof">
+                        <label for="">JS</label>
+                        <input type="checkbox" name="prof" id="prof">
+                        <label for="">REACT</label>
+                        <input type="checkbox" name="prof" id="prof">
+                        <br><br>
+                        <label for="">What Is Your Favorite Color?</label>
+                        <br>
+                        <input type="color" name="color" id="color">
+                        <br><br>
+                        <label for="">How Many Hours Do You Work Everyday?</label>
+                        <br><br>
+                        <input type="range" name="hour" id="hour">
+                        <p id="hours">2 4 6 8 10 12 14 16</p>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </div>
+    
+</body>
+</html>
